@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Secret</title>
+<style>
+body {
+  font-family: Arial;
+  text-align: center;
+  margin-top: 150px;
+}
+input, button {
+  padding: 12px;
+  font-size: 18px;
+}
+</style>
+</head>
+
+<body>
+
+<h2>ادخل الرقم السري ❤️</h2>
+<input type="password" id="pass">
+<br><br>
+<button onclick="check()">دخول</button>
+
+<script>
+function check() {
+  if (document.getElementById("pass").value == "11112003") {
+    window.location.href = "love.html";
+  } else {
+    alert("الرقم السري غلط 😅");
+  }
+}
+</script>
+
+</body>
+</html>
